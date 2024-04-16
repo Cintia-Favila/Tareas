@@ -22,22 +22,22 @@ https://www.docker.com/products/docker-desktop/
 RabbitMQ: 
 Puedes utilizar la imagen de RabbitMQ descargándola desde Docker Hub:
 
-`docker pull rabbitmq:3.13.1-management`
+  docker pull rabbitmq:3.13.1-management
 
 Para crear y ejecutar un contenedor RabbitMQ a partir de la imagen descargada:
 
-`docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.13.1-management`
+  `docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.13.1-management`
 
 El puerto 15672 se utiliza para acceder a la interfaz de usuario de RabbitMQ, mientras que el puerto 5672 es el puerto de conexión AMQP que se utiliza para comunicarse con RabbitMQ.
 
 Redis: 
 Puedes utilizar la imagen de Redis descargándola desde Docker Hub:
 
-`docker pull redis`
+  `docker pull redis`
 
 Para crear y ejecutar un contenedor de Redis a partir de la imagen descargada:
 
-`docker run -p 6379:6379 redis`
+  `docker run -p 6379:6379 redis`
 
 ## Para levantar el proyecto
 - Clona este repositorio en tu máquina local
